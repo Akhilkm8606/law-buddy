@@ -26,7 +26,9 @@ function Chat() {
         {/* Header */}
         <header className='flex justify-between items-center p-4 text-white my-5'>
           <div>
-            <img src={logo} alt='logo' className='w-[50px]' />
+            <a href="/">
+            <img  src={logo} alt='logo' className='w-[50px]' />
+            </a>
           </div>
           <div className='w-10 h-10 bg-white rounded-full flex items-center justify-center'>
             <BiUser className='text-black text-2xl' />
