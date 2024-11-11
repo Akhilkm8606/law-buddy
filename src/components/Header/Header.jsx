@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 function Header() {
   return (
-   <header className='flex items-center justify-between p-4 fixed w-full left-1 box-border z-1000'>
-    <div className='left-container'>
+<header className="flex items-center justify-between p-4 w-full left-1 box-border z-1000 relative sm:fixed">
+<div className='left-container'>
         <img src={logo} alt="Logo" className='h-14 cursor-pointer' />
     </div>
     <div >
